@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightpink: hsl(275, 100%, 97%);
+    --Grayishpurple: hsl(292, 16%, 49%);
+    --Darkpurple: hsl(292, 42%, 14%);
+}
+
+body{
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+main{
+    background-color: var(--White);
+    font-size: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: solid red;
+    margin-top: 11.2rem;
+}
+
+.main-heading{
+    display: flex;
+    align-items: center;
+}
+
+.main-heading img{
+    height: 1rem;
+}
+
+.main-heading h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 0.7rem;
+}
+
+main img{
+    height: 1.2rem;
+    width: 1.2rem;
+    cursor: pointer;
+}
+
+
+.headings{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+h2{
+    font-weight: 900;
+}
